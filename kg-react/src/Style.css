@@ -17,8 +17,8 @@ body {
 }
 
 a {
-    color: inherit;
-    text-decoration: inherit; /* no underline */
+    color: inherit; /* no default blue color */
+    text-decoration: inherit; /* no default underline */
 }
 
 .container {
@@ -97,9 +97,9 @@ a {
 
 .header2_arrow {
     transform:
-        translateX(-35%)
+        translateX(-36%)
         rotate(90deg)
-        translateX(42%)
+        translateX(45%)
 }
 
 .header2_lines {
@@ -250,6 +250,13 @@ a {
         line-height: 4rem;
     }
 
+    .header2_arrow {
+        transform:
+            translateX(-36%)
+            rotate(90deg)
+            translateX(42%)
+    }
+
     .header2_lines {
         position: absolute;
         left: 51%;
@@ -282,7 +289,7 @@ a {
     
 }
 
-/* EXTRA BREKPOINT IN ORDER TO KEEP .HEADER2_DOTS AND .HEADER2_LINES ~ IN THE MIDDLE */
+/* EXTRA BREKPOINT IN ORDER TO KEEP .HEADER2_DOTS AND .HEADER2_LINES APPROX. IN THE MIDDLE */
 @media (max-width: 1276px) {
 
     .header2_lines {
@@ -318,6 +325,13 @@ a {
     .header2_left {
         margin-left: 1.8rem;
         max-width: 350px; 
+    }
+
+    .header2_arrow {
+        transform:
+            translateX(-36%)
+            rotate(90deg)
+            translateX(39%)
     }
 
     .header2_lines {

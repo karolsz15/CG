@@ -2,7 +2,7 @@ import React from 'react';
 
 const Post = props => {
 
-    //random number - 1 or 2
+    //random numbers (either 1 or 2)
     const headRandomNumber = Math.floor(Math.random() * 2) + 1;
     const blockRandomNumber = Math.floor(Math.random() * 2) + 1;
 

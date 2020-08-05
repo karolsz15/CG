@@ -97,9 +97,9 @@ a {
 
 .header2_arrow {
     transform:
-        translateX(-35%)
+        translateX(-36%)
         rotate(90deg)
-        translateX(42%)
+        translateX(45%)
 }
 
 .header2_lines {
@@ -250,6 +250,13 @@ a {
         line-height: 4rem;
     }
 
+    .header2_arrow {
+        transform:
+            translateX(-36%)
+            rotate(90deg)
+            translateX(42%)
+    }
+
     .header2_lines {
         position: absolute;
         left: 51%;
@@ -318,6 +325,13 @@ a {
     .header2_left {
         margin-left: 1.8rem;
         max-width: 350px; 
+    }
+
+    .header2_arrow {
+        transform:
+            translateX(-36%)
+            rotate(90deg)
+            translateX(39%)
     }
 
     .header2_lines {
