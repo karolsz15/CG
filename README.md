@@ -2,7 +2,7 @@
 
 ## 1. REACT APP LIVE DEMO:
 
-## 2. STATIC TEMPLATE LIVE DEMO:
+## 2. STATIC TEMPLATE LIVE DEMO: https://karolsz15.github.io/CG/
 
 ## 3. DESCRIPTION
 

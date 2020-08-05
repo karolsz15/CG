@@ -17,7 +17,9 @@ const Post = props => {
                     <img src={headRandomSourceString} class="post_head" />
                     <img src={blockRandomSourceString} class="post_block" />
                 </div>
-                <div class="post_title">{props.title}</div>
+                <div class="post_title">
+                    {props.title}
+                </div>
             </div>
             <div class="post_content">
                 {props.body}
