@@ -16,6 +16,11 @@ body {
     height: 100%;
 }
 
+a {
+    color: inherit; /* no default blue color */
+    text-decoration: inherit; /* no default underline */
+}
+
 .container {
     max-width: 1920px;
     margin: auto;
@@ -86,11 +91,15 @@ body {
     text-align: center;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .header2_arrow {
     transform:
-        translateX(-35%)
+        translateX(-36%)
         rotate(90deg)
-        translateX(42%)
+        translateX(45%)
 }
 
 .header2_lines {
@@ -188,13 +197,13 @@ body {
 
     .header2_lines {
         position: absolute;
-        left: 53%;
+        left: 58%;
         top: 20%;
     }
     
     .header2_dots {
         position: absolute;
-        left: 50%;
+        left: 56%;
         top: 70%;
     }
 
@@ -241,20 +250,27 @@ body {
         line-height: 4rem;
     }
 
+    .header2_arrow {
+        transform:
+            translateX(-36%)
+            rotate(90deg)
+            translateX(42%)
+    }
+
     .header2_lines {
         position: absolute;
-        left: 48%;
+        left: 51%;
         top: 20%;
     }
     
     .header2_dots {
         position: absolute;
-        left: 43%;
+        left: 47%;
         top: 70%;
     }
 
     .header2_image {
-        max-width: 512px;
+        max-width: 600px;
         height: auto;
     }
     
@@ -271,6 +287,23 @@ body {
         margin: 1.8rem 3.6rem;
     }
     
+}
+
+/* EXTRA BREKPOINT IN ORDER TO KEEP .HEADER2_DOTS AND .HEADER2_LINES APPROX. IN THE MIDDLE */
+@media (max-width: 1276px) {
+
+    .header2_lines {
+        position: absolute;
+        left: 46%;
+        top: 20%;
+    }
+    
+    .header2_dots {
+        position: absolute;
+        left: 41%;
+        top: 70%;
+    }
+
 }
 
 /* TABLETS PORTRAIT */
@@ -292,6 +325,13 @@ body {
     .header2_left {
         margin-left: 1.8rem;
         max-width: 350px; 
+    }
+
+    .header2_arrow {
+        transform:
+            translateX(-36%)
+            rotate(90deg)
+            translateX(39%)
     }
 
     .header2_lines {
@@ -406,6 +446,10 @@ body {
 
     .post {
         margin-bottom: 2rem;
+    }
+
+    .post_title {
+        left: 0.5rem;
     }
 
 }
