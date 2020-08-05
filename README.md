@@ -6,7 +6,7 @@
 
 ## 3. DESCRIPTION
 
-HTML and CSS responsive template was coded on the basis of provided graphic design. The template's files are available in the /template directory.
+HTML and CSS responsive template was coded on the basis of provided graphic design. The template's files are available in the /docs directory.
 React application fetches fake data from jsonplaceholder's webpage ( https://jsonplaceholder.typicode.com/posts ) in order to render dynamic content. 
 Number of displayed post was limited to 6 (the number can be changed easily in Container.js file - line 45).
 Some of the titles were shortened in order to fit in the grid (such titles were marked with '...' sign).
@@ -21,10 +21,10 @@ Some of the titles were shortened in order to fit in the grid (such titles were 
 ## 5. SCREENSHOTS:
 
 #### 1. Homepage - desktop view
-<img src='kg-react/screenshots/desktop1.png' style='margin: 1em' width=40%></img><hr/>
+<img src='kg-react/screenshots/desktop1.png' style='margin: 1em' width=60%></img><hr/>
 
 #### 2. Posts grid - desktop view
-<img src='kg-react/screenshots/desktop2.png' style='margin: 1em' width=40%></img><hr/>
+<img src='kg-react/screenshots/desktop2.png' style='margin: 1em' width=60%></img><hr/>
 
 #### 3. Posts grid - mobile landscape view
 <img src='kg-react/screenshots/mobilelandscape.png' style='margin: 1em' width=40%></img><hr/>
