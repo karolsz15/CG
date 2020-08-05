@@ -1,6 +1,6 @@
 # KG recruitment assignment by Karol Szpek
 
-## 1. REACT APP LIVE DEMO:
+## 1. REACT APP LIVE DEMO: https://kgrecruitmentkarolsz15.web.app
 
 ## 2. STATIC TEMPLATE LIVE DEMO: https://karolsz15.github.io/CG/
 
