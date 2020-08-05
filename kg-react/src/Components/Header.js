@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Header = () => (
+const Header = props => (
     <div class="header2">
         <div class="header2_left">
-            <div class="header2_title">Lorem ipsum dolor sit amet</div>
+            <div class="header2_title">{props.shortTitle}</div>
             <div class="header2_body">
                 <div class="header2_body_title">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    {props.longTitle}
                 </div>
                 <div class="header2_body_content">
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                    {props.body}
                 </div>
             </div>
             <div class="header2_button">

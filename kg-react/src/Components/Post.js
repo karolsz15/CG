@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Post = () => {
+const Post = props => {
     return (
         <div class="post">
             <div class="post_header">
@@ -8,10 +8,10 @@ const Post = () => {
                     <img src="./assets/assets/img/head_2.svg" class="post_head" />
                     <img src="./assets/assets/ico/block.svg" class="post_block" />
                 </div>
-                <div class="post_title">Block the cheaters</div>
+                <div class="post_title">{props.title}</div>
             </div>
             <div class="post_content">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                {props.body}
             </div>
         </div>
     );

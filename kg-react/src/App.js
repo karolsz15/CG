@@ -3,10 +3,8 @@ import React from 'react';
 import './Style.css';
 import Container from './Container/Container';
 
-const App = () => {
-  return (
+const App = () => (
     <Container />
-  );
-}
+);
 
 export default App;
