@@ -13,7 +13,7 @@ const Header = props => (
                 </div>
             </div>
             <div class="header2_button">
-                <button class="button">LEARN MORE</button>
+                <a href="#main_title"><button class="button">LEARN MORE</button></a>
                 <div class="header2_arrow"><img src="./assets/ico/arrow.svg" /></div>
             </div>
         </div>

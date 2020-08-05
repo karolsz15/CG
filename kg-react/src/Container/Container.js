@@ -22,6 +22,12 @@ const Container = () => {
     }, [setPosts, setError, error]);
 
     //if post's title is too long to fit - make it shorter
+    // e.g. 'Pasta with tomato and spinach'
+    // acc: 0 / acc + cur.length = 5 / newDesc = ['Pasta']
+    // acc: 5 / acc + cur.length = 9 / newDesc = ['Pasta', 'with']
+    // acc: 9 / acc + cur.length = 15 / newDesc = ['Pasta', 'with', 'tomato']
+    // => 'Pasta with tomato...'
+
     const limitTitle = (title, limit = 17) => {
         const newTitle = [];
         if (title.length > limit) {
@@ -32,9 +38,9 @@ const Container = () => {
                 return acc + cur.length;
             }, 0);
             return `${newTitle.join(' ')} ...`;
-        }
+        };
         return title;
-    }
+    };
 
     const firstSixPostsArray = posts.slice(0, 6);
     const firstPostArray = posts.slice(0, 1);
