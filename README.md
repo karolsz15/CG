@@ -1,4 +1,12 @@
 # KG recruitment assignment by Karol Szpek i Tomek Tarabasz i super Tomek Toarabasz wogole jest genialny
+fsd
+fsd
+fs
+df
+sdf
+sd
+f
+sdfgit 
 # KG recruitment assignment by Karol Szpek i Tomek Tarabasz i karolek jest swietny
 
 ## 1. REACT APP LIVE DEMO: https://kgrecruitmentkarolsz15.web.app
