@@ -1,4 +1,4 @@
-# KG recruitment assignment by Karol Szpek
+# KG recruitment assignment by Karol Szpek i Tomek Tarabasz
 
 ## 1. REACT APP LIVE DEMO: https://kgrecruitmentkarolsz15.web.app
 
